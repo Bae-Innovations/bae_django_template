@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'corsheaders',
 
     # My App
-    'auth',
+    'users',
 
     # Health Check
     'health_check',
@@ -145,7 +145,7 @@ else:
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
-AUTH_USER_MODEL = 'auth.User'
+AUTH_USER_MODEL = 'users.User'
 
 AUTH_PASSWORD_VALIDATORS = [
     {
